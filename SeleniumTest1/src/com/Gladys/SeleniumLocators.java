@@ -31,7 +31,7 @@ public class SeleniumLocators {
 		// Name input password di Stackoverflow = password
 		WebElement password = driver.findElement(By.name("password"));
 		// Masukkan password = clrtrsgldystnjy17_
-		password.sendKeys("clrtrsgldystnjy17_");
+		password.sendKeys("abcdefg12345");
 		
 		// Selenium Locators 3: Class
 		// Tambahkan click supaya bisa terpencet buttonnya
