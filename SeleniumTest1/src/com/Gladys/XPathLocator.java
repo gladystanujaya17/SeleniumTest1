@@ -29,6 +29,7 @@ public class XPathLocator {
 		searchBox.sendKeys("Documentation");
 		searchBox.sendKeys(Keys.ENTER);
 		
+		// Bisa tambahkan extension SelectorsSub di Google
 	}
 
 }
