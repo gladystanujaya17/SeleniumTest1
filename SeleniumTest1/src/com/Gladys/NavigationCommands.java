@@ -42,7 +42,7 @@ public class NavigationCommands {
 		// Use get() will change the URL from Amazon to Spotify
 		driver.get("https://open.spotify.com/");
 
-		
+		driver.close();
 	}
 
 }

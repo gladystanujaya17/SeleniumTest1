@@ -21,6 +21,8 @@ public class SeleniumClassLocators {
 		WebElement location = driver.findElement(By.className("_1xq16jy"));
 		location.sendKeys("Goa", Keys.ENTER);
 		
+		driver.close();
+		
 	}
 
 }

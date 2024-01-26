@@ -28,6 +28,8 @@ public class GetCommand {
 		String currentURL = driver.getCurrentUrl();
 		System.out.println("Current URL: " + currentURL);
 		
+		driver.close();
+		
 	}
 
 }
