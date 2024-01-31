@@ -40,7 +40,7 @@ public class HandleDropDownJava {
 		List<WebElement> listOptions = dropDownSelect.getOptions();
 		
 		for(WebElement option: listOptions) {
-			System.out.println(option.getText());
+			System.out.println(option.getText()); // untuk mendapatkan teksnya dari pilihan
 		}
 	}
 
